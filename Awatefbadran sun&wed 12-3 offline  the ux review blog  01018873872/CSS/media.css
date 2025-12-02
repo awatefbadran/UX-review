@@ -1,0 +1,346 @@
+/* sm */
+@media screen and (max-width: 640px) {
+  .sm-100 {
+    width: 100%;
+  }
+
+  .sm-50 {
+    width: 50%;
+  }
+
+  .sm-33 {
+    width: 33.333%;
+  }
+
+  .sm-25 {
+    width: 25%;
+  }
+
+  .sm-20 {
+    width: 20%;
+  }
+
+  .wrap {
+    flex-wrap: wrap;
+  }
+
+  .navbar-links {
+    display: none;
+  }
+
+  .right-column {
+    margin: 0px;
+    position: relative;
+
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .icon-item img {
+    width: 3%;
+  }
+
+  .latest-btn button {
+    width: 65%;
+  }
+.navbar-btn{
+  display: none;
+}
+}
+
+/* md */
+@media screen and (min-width: 640px) and (max-width: 1024px) {
+  .md-100 {
+    width: 100%;
+  }
+
+  .md-50 {
+    width: 50%;
+  }
+
+  .md-33 {
+    width: 33.333%;
+  }
+
+  .md-25 {
+    width: 25%;
+  }
+
+  .md-20 {
+    width: 20%;
+  }
+
+  .navbar-links {
+    display: none;
+  }
+
+  .right-column {
+    margin: 0px;
+    position: relative;
+  }
+
+  .latest-Articles-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .right-column {
+    margin: 20px;
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .icon-item img {
+    width: 10%;
+  }
+
+
+  .latest-btn button {
+    width: 100%;
+  }
+}
+
+/* lg */
+@media screen and (min-width: 1024px)and (max-width: 1280px) {
+  .lg-100 {
+    width: 100%;
+  }
+
+  .lg-50 {
+    width: 50%;
+  }
+.lg-60{
+  width: 60%;
+}
+.lg-40{
+  width: 40%;
+}
+  .lg-33 {
+    width: 33.333%;
+  }
+
+  .lg-65 {
+    width: 65%;
+  }
+
+  .lg-35 {
+    width: 35%;
+  }
+
+  .lg-25 {
+    width: 25%;
+  }
+
+  .lg-20 {
+    width: 20%;
+  }
+
+  .hero-section-items-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .latest-Articles-items {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .right-column {
+    margin: 20px;
+    position: relative;
+
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .icon-item img {
+    width: 15%;
+  }
+
+  .latest-Articles-items-inner {
+    display: flex;
+  }
+
+  .latest-Articles-items-inner .article-img {
+    margin-right: 20px;
+  }
+
+  .latest-Articles-items-inner .article-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+
+  }
+
+  .NEW {
+    left: 17%
+  }
+   .HOT {
+    left: 17%
+  }
+  .VIRAL{
+    left: 17%;
+  }
+
+  .hero-section-items-inner-right {
+        margin-left: 32px;
+  }
+}
+
+/* xl */
+@media screen and(min-width: 1024px)and (max-width: 1280px) {
+
+  .xl-100 {
+    width: 100%;
+  }
+
+  .xl-50 {
+    width: 50%;
+  }
+
+  .xl-33 {
+    width: 33.333%;
+  }
+
+  .xl-25 {
+    width: 25%;
+  }
+
+  .xl-20 {
+    width: 20%;
+  }
+
+  .xl-75 {
+    width: 75%;
+  }
+
+  .xl-30 {
+    width: 30%;
+  }
+
+  .hero-section-items-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .latest-Articles-items {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+  }
+
+  .right-column {
+    margin: 20px;
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .icon-item img {
+    width: 16%;
+  }
+
+ .hero-section-items-inner-right {
+        margin-left: 35px;
+  }
+}
+
+
+/* xxl */
+@media screen and (min-width: 1536px) {
+  .xxl-100 {
+    width: 100%;
+  }
+
+  .xxl-50 {
+    width: 50%;
+  }
+
+  .xxl-33 {
+    width: 33.333%;
+  }
+
+  .xxl-25 {
+    width: 25%;
+  }
+
+  .xxl-20 {
+    width: 20%;
+  }
+
+  .xxl-75 {
+    width: 75%;
+  }
+
+  .xxl-30 {
+    width: 30%;
+  }
+
+  .hide-md {
+    display: block;
+  }
+
+  .hero-section-items-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .latest-Articles-items {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .right-column {
+    margin: 20px;
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .icon-item img {
+    width: 17%;
+  }
+
+
+   .hero-section-items-inner-right {
+        margin-left: 38px;
+  }
+}
